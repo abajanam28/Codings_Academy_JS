@@ -1,0 +1,44 @@
+.caja-animada{
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    animation: moverCaja 3s infinite alternate  ease-out;
+}
+@keyframes moverCaja {
+    0%{
+        left: 0px;
+        background-color: aqua;
+    }
+    50%{
+        left: -50px;
+        background-color: chartreuse;
+    }
+    100%{
+        left: 0px;
+        background-color: brown;
+    }
+}
+
+.banner-animado{
+    width: 800px;
+    height: 400px;
+    background-image: url(https://images.pexels.com/photos/8123817/pexels-photo-8123817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    position: relative;
+    animation: cambiarImg 3s infinite alternate  ease-out;
+}
+@keyframes cambiarImg {
+    0%{
+        left: 0px;
+        background-image: url(https://images.pexels.com/photos/2962135/pexels-photo-2962135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    }
+    50%{
+        left: -50px;
+        background-image: url(https://images.pexels.com/photos/7352524/pexels-photo-7352524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    }
+    100%{
+        left: 0px;
+        background-image: url(https://images.pexels.com/photos/5833245/pexels-photo-5833245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    }
+}
